@@ -2,44 +2,46 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2BC4AF">
+    android:background="@color/color_green1">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/logo"
         android:layout_marginTop="119dp"
-        android:src="@mipmap/logo"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo" />
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:hint="Email"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/color_white"
+        android:hint="@string/hint_account"
         android:gravity="center"
-        android:singleLine="true"
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
         android:layout_marginTop="15dp"
-        android:layout_below="@+id/logo"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/logo" />
 
 
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:hint="Password"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/color_white"
+        android:hint="@string/hint_password"
         android:gravity="center"
-        android:singleLine="true"
-        android:layout_marginTop="60dp"
-        android:layout_below="@+id/logo"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/username" />
 
 
     <Button

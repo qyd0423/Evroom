@@ -50,6 +50,8 @@
     <string name="Bonjour">Bonjour!</string>
     <string name="parole">Je voudrais demander  une covoiturage pour  aller a gala!</string>
     <string name="title_chat">put in your msg....</string>
+    <string name="hint_account">Email</string>
+    <string name="hint_password">Password</string>
 
 
 

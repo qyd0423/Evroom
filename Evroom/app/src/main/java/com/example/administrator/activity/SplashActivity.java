@@ -16,11 +16,6 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        TransitionDrawable transitionDrawable = (TransitionDrawable) getResources().
-                getDrawable(R.drawable.splash_drawable);
-        ((ImageView) findViewById(R.id.imageView)).setImageDrawable(transitionDrawable);
-        transitionDrawable.startTransition(800);
-
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 if (isFinishing()) {
