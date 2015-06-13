@@ -13,6 +13,7 @@
     <color name="color_white">#ffffff</color>
     <color name="color_green">#6ed288</color>
     <color name="color_green_pressed">#4ab265</color>
+    <color name="color_green1">#2BC4AF</color>
     <color name="color_black">#000000</color>
     <color name="color_black1">#666666</color>
     <color name="color_black2">#333333</color>
@@ -30,5 +31,6 @@
 
     <color name="bg_image_default">#f5f0eb</color>
     <color name="photo_view_bg">#22211e</color>
+
 
 </resources>
